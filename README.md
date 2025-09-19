@@ -49,6 +49,44 @@ Após a compilação, execute:
 
 O programa exibirá um menu interativo para gerenciar os produtos.
 
+Layout:
+
+Após o sistema ser executado aprasentará um menu interativo em texto no terminal, estruturado da seguinte forma:
+
+=== MENU DE PRODUTOS ===
+1. Inserir Produto
+2. Listar Produtos
+3. Editar Produto
+4. Excluir Produto
+5. Sair
+Escolha uma opção:
+
+O usuário seleciona uma das 5 opções desejadas digitando o número correspondente. O sistema então executa a funcionalidade associada. 
+
+Funcionalidades
+1. Inserir Produto
+Permite cadastrar novos produtos no banco de dados.
+  > Solicita ao usuário informações como nome, unidade, valor e quantidade.
+  > Os dados são armazenados no arquivo produtos.db utilizando SQLite.
+
+2. Listar Produtos
+Exibe todos os produtos cadastrados de forma tabular.
+  > Mostra ID, nome, unidade, valor e quantidade de cada produto.
+  > Útil para visualizar o estoque completo.
+ 
+3. Editar Produto
+Permite atualizar os dados de um produto existente.
+  > O usuário informa o ID do produto.
+  > é possível alterar nome, unidade, valor e quantidade.
+  > Os dados são atualizados diretamente no banco SQLite.
+ 
+4. Excluir Produto
+Remove permanentemente um produto do sistema.
+  > O usuário informa o ID do produto a ser excluído.
+  > O registro é removido do banco de dados.
+
+5. Sair
+Encerra o programa de forma segura.
 
 Observações:
 
