@@ -66,24 +66,24 @@ O usuário seleciona uma das 5 opções desejadas digitando o número correspond
 Funcionalidades
 1. Inserir Produto
 Permite cadastrar novos produtos no banco de dados.
-  > Solicita ao usuário informações como nome, unidade, valor e quantidade.
-  > Os dados são armazenados no arquivo produtos.db utilizando SQLite.
+  > 1. Solicita ao usuário informações como nome, unidade, valor e quantidade.
+  > 2. Os dados são armazenados no arquivo produtos.db utilizando SQLite.
 
 2. Listar Produtos
 Exibe todos os produtos cadastrados de forma tabular.
-  > Mostra ID, nome, unidade, valor e quantidade de cada produto.
-  > Útil para visualizar o estoque completo.
+  > 1. Mostra ID, nome, unidade, valor e quantidade de cada produto.
+  > 2. Útil para visualizar o estoque completo.
  
 3. Editar Produto
 Permite atualizar os dados de um produto existente.
-  > O usuário informa o ID do produto.
-  > é possível alterar nome, unidade, valor e quantidade.
-  > Os dados são atualizados diretamente no banco SQLite.
+  > 1. O usuário informa o ID do produto.
+  > 2. é possível alterar nome, unidade, valor e quantidade.
+  > 3. Os dados são atualizados diretamente no banco SQLite.
  
 4. Excluir Produto
 Remove permanentemente um produto do sistema.
-  > O usuário informa o ID do produto a ser excluído.
-  > O registro é removido do banco de dados.
+  > 1. O usuário informa o ID do produto a ser excluído.
+  > 2. O registro é removido do banco de dados.
 
 5. Sair
 Encerra o programa de forma segura.
